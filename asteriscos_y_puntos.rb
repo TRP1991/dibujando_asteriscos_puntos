@@ -1,9 +1,9 @@
 n = ARGV[0].to_i
-n = 8 
-n.times do |i| 
+n.times do |i|
     if i.even?
-        puts '*'
+        print '*'
     else
-        puts "."
+        print '.'
     end
 end
+n = 8
